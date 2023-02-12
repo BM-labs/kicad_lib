@@ -36,12 +36,12 @@
   (fp_line (start -13.3 -3.799998) (end -10.5 -3.799998) (layer "F.CrtYd") (width 0.05) (tstamp cd43f483-2531-4184-99c6-c622b9979b01))
   (fp_line (start 7.7 -7.999998) (end 5.6 -7.999998) (layer "F.CrtYd") (width 0.05) (tstamp fdce2ed6-29ac-4e81-9234-05ff9bc92659))
   (fp_arc (start 9.9 3.800002) (mid -0.05 10.660961) (end -10 3.800002) (layer "F.CrtYd") (width 0.05) (tstamp 0a7213e3-0fef-468d-b576-6937f43434e4))
-  (fp_arc (start -5.7 -7.999998) (mid -0.040962 -9.822845) (end 5.633082 -8.047257) (layer "F.CrtYd") (width 0.05) (tstamp 8a869d06-adf0-48f4-b052-0619304fa55e))
+  (fp_arc (start -5.7 -7.999998) (mid -0.05 -9.806942) (end 5.6 -7.999998) (layer "F.CrtYd") (width 0.05) (tstamp 8a869d06-adf0-48f4-b052-0619304fa55e))
   (pad "1" smd roundrect (at 11.45 0 180) (size 2.5 5.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6e0d5162-2ffe-4189-89b8-2aebf8c19640))
   (pad "1" smd roundrect (at -11.45 0 180) (size 2.5 5.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp db16ba96-21af-427f-847d-1f74aaa23c4b))
-  (pad "2" smd circle (at 0 0) (size 17.8 17.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 58aae3f8-ae25-47d5-81b4-598d89f034d4))
-  (model "${KIPRJMOD}/lib/3d shapes/BAT-HLD-001-TR.stp"
-    (offset (xyz 0 7.25 4.2))
+  (pad "2" smd circle (at 0 0) (size 17.8 17.8) (layers "F.Cu" "F.Mask") (tstamp 58aae3f8-ae25-47d5-81b4-598d89f034d4))
+  (model "${KIPRJMOD}/kicad_lib/packages3d/BAT-HLD-001-TR.stp"
+    (offset (xyz 0 7.25 4.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
